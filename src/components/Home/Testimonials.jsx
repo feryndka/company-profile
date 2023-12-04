@@ -2,7 +2,7 @@
 
 import { getUsers } from "@/api/users";
 import { useEffect, useState } from "react";
-import Slider from "../shared/slider";
+import Slider from "../shared/Slider";
 
 export default function Testimonials() {
   const [users, setUsers] = useState([]);
