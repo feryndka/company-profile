@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #e7e7e7;
 }
 
 nav {
@@ -16,11 +16,10 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #004643;
-  color: #e7e7e7;
+  background-color: #000;
   height: 70px;
   align-items: center;
-  border-bottom: 0.2px solid #abd1c6;
+  /* border-bottom: 1px solid #00dc93; */
 }
 
 nav .iconDensity {
@@ -53,8 +52,17 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: #00dc93;
+  color: #bbf7d0;
   transition: .3s;
+}
+
+#HomeStart {
+  background-image: url('https://browsecat.art/sites/default/files/tron-background-129335-1774918-9294642.png');
+  background-size: cover;
+}
+
+#HomeService {
+  background-color: black;
 }
 
 /* Screen Mobile */
@@ -64,16 +72,16 @@ nav ul li:hover {
     display: flex;
   }
 
-  nav .iconDensity:hover {
-    color: #00dc93;
+  nav .iconDensity {
+    color: #bbf7d0;
   }
 
   nav ul {
     position: absolute;
     flex-direction: column;
-    background-color: #004643;
+    background-color: #000;
     top: 0;
-    width: 100%;
+    width: 50%;
     margin-top: 69px;
     height: 30vh;
     justify-content: space-around;
@@ -81,6 +89,6 @@ nav ul li:hover {
   }
 
   nav ul.visible {
-    transform: translateY(-150%);
+    transform: translateX(-100%);
   }
 }

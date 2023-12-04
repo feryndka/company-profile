@@ -13,7 +13,7 @@ export default function Header() {
 
     return (
         <nav className="z-10">
-            <div className="logo text-green-500 text-[40px]">TECH</div>
+            <div className="logo text-[#bbf7d0] text-[40px]">TECH</div>
 
             <ul className={!isVisible ? '' : 'visible'}>
                 <li><Link href="/">Home</Link></li>

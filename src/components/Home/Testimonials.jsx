@@ -30,7 +30,7 @@ export default function Testimonials() {
               return (
                 <Slider.Content key={index}>
                   <div class="relative p-4 w-full">
-                    <div class="h-full bg-[#e8e4e6] p-8 rounded">
+                    <div class="h-full bg-gray-100 p-8 rounded">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -50,7 +50,7 @@ export default function Testimonials() {
                           alt="user"
                           // src={user.picture.thumbnail}
                           class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                          width={500} 
+                          width={500}
                           height={500}
                         />
                         <span class="flex-grow flex flex-col pl-4">

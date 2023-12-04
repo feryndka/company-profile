@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function HomeService() {
   return (
-    <section class="text-gray-600 body-font bg-[#abd1c6]" id="HomeService">
+    <section class="text-gray-600 body-font" id="HomeService">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap w-full mb-20">
           <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 class="text-[50px] font-medium title-font mb-2 text-gray-900">
+            <h1 class="text-[50px] font-medium title-font mb-2 text-gray-300">
               Our Service
             </h1>
-            <div class="h-1 w-[50%] bg-green-500 rounded"></div>
+            <div class="h-1 w-[50%] bg-green-200 rounded"></div>
           </div>
-          <p class="lg:w-1/2 w-full leading-relaxed text-[#0f3433]">
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-400">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably have
             not heard of them man bun deep jianbing selfies heirloom prism food
@@ -20,7 +20,7 @@ export default function HomeService() {
         </div>
         <div class="flex flex-wrap -m-4">
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-[#004643] p-6 rounded-lg">
+            <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
                 // src="https://dummyimage.com/720x400"
@@ -28,17 +28,17 @@ export default function HomeService() {
                 width={500}
                 height={500}
               />
-              <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-gray-500 text-xs font-medium title-font">
                 TECHNOLOGY
               </h3>
-              <h2 class="text-lg text-[#fffffe] font-medium title-font mb-4">
+              <h2 class="text-lg text-[#000] font-medium title-font mb-4">
                 Web Development
               </h2>
-              <p class="leading-relaxed text-[#abd1c6] pb-5">
+              <p class="leading-relaxed text-gray-800 pb-5">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
-              <a class="text-green-500 inline-flex items-center">
+              <a class="text-gray-500 inline-flex items-center" href="/service">
                 Learn More
                 <svg
                   fill="none"
@@ -55,7 +55,7 @@ export default function HomeService() {
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-[#004643] p-6 rounded-lg">
+            <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
                 // src="https://dummyimage.com/720x400"
@@ -63,17 +63,17 @@ export default function HomeService() {
                 width={500}
                 height={500}
               />
-              <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-gray-500 text-xs font-medium title-font">
                 TECHNOLOGY
               </h3>
-              <h2 class="text-lg text-[#fffffe] font-medium title-font mb-4">
+              <h2 class="text-lg text-[#000] font-medium title-font mb-4">
                 Data Science
               </h2>
-              <p class="leading-relaxed text-[#abd1c6] pb-5">
+              <p class="leading-relaxed text-gray-800 pb-5">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
-              <a class="text-green-500 inline-flex items-center">
+              <a class="text-gray-500 inline-flex items-center" href="/service">
                 Learn More
                 <svg
                   fill="none"
@@ -90,7 +90,7 @@ export default function HomeService() {
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-[#004643] p-6 rounded-lg">
+            <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
                 // src="https://dummyimage.com/720x400"
@@ -98,17 +98,17 @@ export default function HomeService() {
                 width={500}
                 height={500}
               />
-              <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-gray-500 text-xs font-medium title-font">
                 TECHNOLOGY
               </h3>
-              <h2 class="text-lg text-[#fffffe] font-medium title-font mb-4">
+              <h2 class="text-lg text-[#000] font-medium title-font mb-4">
                 UI/UX Design
               </h2>
-              <p class="leading-relaxed text-[#abd1c6] pb-5">
+              <p class="leading-relaxed text-gray-800 pb-5">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
-              <a class="text-green-500 inline-flex items-center">
+              <a class="text-gray-500 inline-flex items-center" href="/service">
                 Learn More
                 <svg
                   fill="none"
@@ -125,7 +125,7 @@ export default function HomeService() {
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-[#004643] p-6 rounded-lg">
+            <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
                 // src="https://dummyimage.com/720x400"
@@ -133,17 +133,17 @@ export default function HomeService() {
                 width={500}
                 height={500}
               />
-              <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
-                MARKETING
+              <h3 class="tracking-widest text-gray-500 text-xs font-medium title-font">
+                TECHNOLOGY
               </h3>
-              <h2 class="text-lg text-[#fffffe] font-medium title-font mb-4">
+              <h2 class="text-lg text-[#000] font-medium title-font mb-4">
                 Digital Marketing
               </h2>
-              <p class="leading-relaxed text-[#abd1c6] pb-5">
+              <p class="leading-relaxed text-gray-800 pb-5">
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
-              <a class="text-green-500 inline-flex items-center">
+              <a class="text-gray-500 inline-flex items-center" href="/service">
                 Learn More
                 <svg
                   fill="none"
