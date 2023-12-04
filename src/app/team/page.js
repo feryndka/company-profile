@@ -1,6 +1,7 @@
 "use client";
 
 import { getUsers } from "@/api/users";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Team() {
@@ -21,7 +22,7 @@ export default function Team() {
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably have not heard of them.</p>
         </div>
         <div class="flex flex-wrap -m-4">
 
@@ -29,7 +30,13 @@ export default function Team() {
             return (
               <div class="p-4 lg:w-1/4 md:w-1/2" key={index}>
                 <div class="h-full flex flex-col items-center text-center">
-                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={user.picture.large} />
+                  <Image 
+                    alt="team" 
+                    class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" 
+                    // src={user.picture.large} 
+                    width={500} 
+                    height={500}
+                  />
                   <div class="w-full">
                     <h2 class="title-font font-medium text-lg text-gray-900">{`${user.name.first} ${user.name.last}`}</h2>
                     <h3 class="text-gray-500 mb-3">Web Developer</h3>

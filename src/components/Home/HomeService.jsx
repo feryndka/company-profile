@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomeService() {
   return (
     <section class="text-gray-600 body-font bg-[#abd1c6]" id="HomeService">
@@ -11,18 +13,20 @@ export default function HomeService() {
           </div>
           <p class="lg:w-1/2 w-full leading-relaxed text-[#0f3433]">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom prism
-            food truck ugh squid celiac humblebrag.
+            gentrify, subway tile poke farm-to-table. Franzen you probably have
+            not heard of them man bun deep jianbing selfies heirloom prism food
+            truck ugh squid celiac humblebrag.
           </p>
         </div>
         <div class="flex flex-wrap -m-4">
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-[#004643] p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                // src="https://dummyimage.com/720x400"
                 alt="content"
+                width={500}
+                height={500}
               />
               <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
                 TECHNOLOGY
@@ -52,10 +56,12 @@ export default function HomeService() {
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-[#004643] p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/721x401"
+                // src="https://dummyimage.com/720x400"
                 alt="content"
+                width={500}
+                height={500}
               />
               <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
                 TECHNOLOGY
@@ -85,10 +91,12 @@ export default function HomeService() {
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-[#004643] p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/722x402"
+                // src="https://dummyimage.com/720x400"
                 alt="content"
+                width={500}
+                height={500}
               />
               <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
                 TECHNOLOGY
@@ -118,10 +126,12 @@ export default function HomeService() {
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-[#004643] p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/723x403"
+                // src="https://dummyimage.com/720x400"
                 alt="content"
+                width={500}
+                height={500}
               />
               <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
                 MARKETING

@@ -3,6 +3,7 @@
 import { getUsers } from "@/api/users";
 import { useEffect, useState } from "react";
 import Slider from "../shared/Slider";
+import Image from "next/image";
 
 export default function Testimonials() {
   const [users, setUsers] = useState([]);
@@ -40,15 +41,17 @@ export default function Testimonials() {
                       </svg>
                       <p class="leading-relaxed mb-6">
                         Synth chartreuse iPhone lomo cray raw denim brunch
-                        everyday carry neutra before they sold out fixie 90's
+                        everyday carry neutra before they sold out fixie 90s
                         microdosing. Tacos pinterest fanny pack venmo,
                         post-ironic heirloom try-hard pabst authentic iceland.
                       </p>
                       <a class="inline-flex items-center">
-                        <img
-                          alt="testimonial"
-                          src={user.picture.thumbnail}
+                        <Image
+                          alt="user"
+                          // src={user.picture.thumbnail}
                           class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          width={500} 
+                          height={500}
                         />
                         <span class="flex-grow flex flex-col pl-4">
                           <span class="title-font font-medium text-gray-900">{`${user.name.title} ${user.name.first} ${user.name.last}`}</span>

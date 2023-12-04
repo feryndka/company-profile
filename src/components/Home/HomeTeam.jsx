@@ -1,6 +1,7 @@
 "use client";
 
 import { getUsers } from "@/api/users";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function HomeTeam() {
@@ -27,7 +28,7 @@ export default function HomeTeam() {
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+            have not heard of them.
           </p>
         </div>
         <div class="flex flex-wrap -m-2">
@@ -35,10 +36,12 @@ export default function HomeTeam() {
             return (
               <div key={index} class="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div class="h-full flex items-center bg-gray-100 border p-4 rounded-lg">
-                  <img
+                  <Image
                     alt="team"
                     class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src={user.picture.thumbnail}
+                    // src={user.picture.thumbnail}
+                    width={500} 
+                    height={500}
                   />
                   <div class="flex-grow">
                     <h2 class="text-gray-900 title-font font-medium">
