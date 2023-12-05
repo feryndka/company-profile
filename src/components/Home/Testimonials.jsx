@@ -48,7 +48,7 @@ export default function Testimonials() {
                       <a class="inline-flex items-center">
                         <Image
                           alt="user"
-                          // src={user.picture.thumbnail}
+                          src={user.picture.thumbnail}
                           class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                           width={500}
                           height={500}

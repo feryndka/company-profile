@@ -23,7 +23,7 @@ export default function HomeService() {
             <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                // src="https://dummyimage.com/720x400"
+                src="/img/web-dev.png"
                 alt="content"
                 width={500}
                 height={500}
@@ -58,7 +58,7 @@ export default function HomeService() {
             <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                // src="https://dummyimage.com/720x400"
+                src="/img/data-science.jpg"
                 alt="content"
                 width={500}
                 height={500}
@@ -93,7 +93,7 @@ export default function HomeService() {
             <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                // src="https://dummyimage.com/720x400"
+                src="/img/uiux-logo.png"
                 alt="content"
                 width={500}
                 height={500}
@@ -128,7 +128,7 @@ export default function HomeService() {
             <div class="bg-green-200 p-6 rounded-lg">
               <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                // src="https://dummyimage.com/720x400"
+                src="/img/digital-marketing.jpg"
                 alt="content"
                 width={500}
                 height={500}
