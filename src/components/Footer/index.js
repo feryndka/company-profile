@@ -9,22 +9,22 @@ export default function Footer() {
                         <h2 class="title-font font-medium text-green-200 tracking-widest text-sm mb-3">HOME</h2>
                         <div class="list-none mb-10">
                             <li class="pb-1">
-                                <a href="#" class="text-gray-400 hover:text-gray-500">
+                                <a href="/" class="text-gray-400 hover:text-gray-500">
                                     Company
                                 </a>
                             </li>
                             <li class="pb-1">
-                                <a href="#HomeTeam" class="text-gray-400 hover:text-gray-500">
+                                <a href="/./#HomeTeam" class="text-gray-400 hover:text-gray-500">
                                     Team
                                 </a>
                             </li>
                             <li class="pb-1">
-                                <a href="#HomeService" class="text-gray-400 hover:text-gray-500">
+                                <a href="/./#HomeService" class="text-gray-400 hover:text-gray-500">
                                     Service
                                 </a>
                             </li>
                             <li class="pb-1">
-                                <a href="#HomeTestimonials" class="text-gray-400 hover:text-gray-500">
+                                <a href="/./#HomeTestimonials" class="text-gray-400 hover:text-gray-500">
                                     Testimonials
                                 </a>
                             </li>
@@ -68,7 +68,7 @@ export default function Footer() {
                         <h2 class="title-font font-medium text-green-200 tracking-widest text-sm mb-3">TEAM</h2>
                         <div class="list-none mb-10">
                             <li class="pb-1">
-                                <a class="text-gray-400 hover:text-gray-500" href="#">Teams</a>
+                                <a class="text-gray-400 hover:text-gray-500" href="/team/#">Teams</a>
                             </li>
                         </div>
                     </div>

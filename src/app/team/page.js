@@ -22,13 +22,14 @@ export default function Team() {
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="text-5xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably have not heard of them.</p>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base mb-10">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably have not heard of them.</p>
+          <div class="h-1  bg-gray-600 rounded"></div>
         </div>
         <div class="flex flex-wrap -m-4">
           {users?.map((user, index) => {
             return (
               <div class="p-4 lg:w-1/3 md:w-1/2 mb-10" key={index}>
-                <div class="h-full flex flex-col items-center text-center bg-green-200">
+                <div class="h-full flex flex-col items-center text-center bg-gray-100">
                   <Image
                     alt="team" 
                     class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" 

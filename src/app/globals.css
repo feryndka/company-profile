@@ -41,7 +41,6 @@ nav .logo:hover, footer div a .logo {
 
 nav ul {
   display: flex;
-  list-style: none;
   width: 30%;
   justify-content: space-around;
   align-items: center;
@@ -59,10 +58,7 @@ nav ul li:hover {
 #HomeStart {
   background-image: url('../../public/img/bg-hero.jpg');
   background-position:bottom;
-}
-
-#HomeService {
-  background-color: black;
+  background-size: cover;
 }
 
 /* Screen Mobile */
