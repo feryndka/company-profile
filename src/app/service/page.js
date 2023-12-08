@@ -17,12 +17,12 @@ export default function Service() {
   return (
     <section class="text-gray-600 body-font overflow-hidden pt-[30px]">
       <div class="container px-5 py-24 mx-auto">
-        <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="-my-8 divide-y-2 divide-gray-500 ">
           <center>
             <h1 class="text-[50px] font-medium title-font mb-2 text-gray-900">
               Service
             </h1>
-            <div class="h-1  bg-gray-600 rounded"></div>
+            <div class="h-1 bg-gray-600 rounded"></div>
           </center>
           {data?.items?.map((item, index) => {
             return (

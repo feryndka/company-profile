@@ -4,11 +4,11 @@ import { getUsers } from "@/api/users";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export default function Team() {
+export default function AboutTeam() {
   const [users, setUsers] = useState([]);
 
   const fetchUsers = async () => {
-    const params = { results: 9 };
+    const params = { results: 4 };
     const response = await getUsers(params);
     setUsers(response?.data?.results ?? []);
   };
@@ -28,16 +28,16 @@ export default function Team() {
         <div class="flex flex-wrap -m-4">
           {users?.map((user, index) => {
             return (
-              <div class="p-4 lg:w-1/3 md:w-1/2 mb-10" key={index}>
-                <div class="h-full flex flex-col items-center text-center bg-gray-100">
+              <div class="p-4 lg:w-1/2" key={index}>
+                <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                   <Image
-                    alt="team" 
-                    class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" 
+                    alt="team"
+                    class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                     src={user.picture.large}
-                    width={100} 
+                    width={100}
                     height={100}
                   />
-                  <div class="w-full">
+                  <div class="flex-grow sm:pl-8">
                     <h2 class="title-font font-medium text-lg text-gray-900">{`${user.name.first} ${user.name.last}`}</h2>
                     <h3 class="text-gray-500 mb-3">Web Developer</h3>
                     <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>

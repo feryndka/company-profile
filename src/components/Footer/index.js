@@ -39,16 +39,16 @@ export default function Footer() {
                         <h2 class="title-font font-medium text-green-200 tracking-widest text-sm mb-3">ABOUT</h2>
                         <div class="list-none mb-10">
                             <li class="pb-1">
-                                <a class="text-gray-400 hover:text-gray-500" href="#">First Link</a>
+                                <a class="text-gray-400 hover:text-gray-500" href="#">About Us</a>
                             </li>
                             <li class="pb-1">
-                                <a class="text-gray-400 hover:text-gray-500" href="#">Second Link</a>
+                                <a class="text-gray-400 hover:text-gray-500" href="#">Mission</a>
                             </li>
                             <li class="pb-1">
-                                <a class="text-gray-400 hover:text-gray-500" href="#">Third Link</a>
+                                <a class="text-gray-400 hover:text-gray-500" href="#">History</a>
                             </li>
                             <li>
-                                <a class="text-gray-400 hover:text-gray-500" href="#">Fourth Link</a>
+                                <a class="text-gray-400 hover:text-gray-500" href="#">Team</a>
                             </li>
                         </div>
                     </div>
