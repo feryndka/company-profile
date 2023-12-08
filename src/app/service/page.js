@@ -2,6 +2,7 @@
 import useSWR from "swr";
 import Image from "next/image";
 import Link from "next/link";
+import Testimonials from "@/components/Home/Testimonials";
 
 export default function Service() {
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
@@ -38,9 +39,9 @@ export default function Service() {
                 <div class="md:flex-grow">
                   <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">{item.fields.title}</h2>
                   <p class="leading-relaxed">{item.fields.subtitle}</p>
-                  <Link 
+                  <Link
                     class="text-indigo-500 inline-flex items-center mt-4 hover:text-indigo-800"
-                    href="/"
+                    href="/DetailService/"
                   >Learn More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -51,6 +52,7 @@ export default function Service() {
               </div>
             )
           })}
+          <Testimonials />
         </div>
       </div>
     </section>

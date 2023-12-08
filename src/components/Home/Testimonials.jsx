@@ -21,9 +21,10 @@ export default function Testimonials() {
   return (
     <section class="text-gray-600 body-font" id="HomeTestimonials">
       <div class="container px-5 py-24 mx-auto">
-        <h1 class="text-[50px] font-medium title-font text-gray-900 mb-12 text-center">
+        <h1 class="text-[50px] font-medium title-font text-gray-900 mb-5 text-center">
           Testimonials
         </h1>
+        <div class="h-1 bg-gray-600 rounded w-full mb-10"></div>
         <div class="flex flex-wrap -m-4">
           <Slider>
             {users?.map((user, index) => {
