@@ -26,7 +26,7 @@ export default function HomeStart() {
           </p>
           <div class="flex justify-center">
             <button class="inline-flex text-black bg-green-200 border-0 py-2 px-6 focus:outline-none hover:bg-green-300 rounded text-lg">
-              <Link href="#HomeTeam">Read More</Link>
+              <Link href="#HomeMission">Read More</Link>
             </button>
           </div>
         </div>
